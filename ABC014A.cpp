@@ -16,11 +16,12 @@
 #define se second
 #define repe(i,a,n) for(int i=a ; i <n ;i++)
 #define rep(i,n) for(int i=0 ; i <n ;i++)
+#define fastio ios::sync_with_stdio(0);cin.tie(0);
+
 using namespace std;
 
 int main(){
-    ios::sync_with_stdio(0);
-    cin.tie(0);
+    fastio
     ll int a,b,c,ha,hb,hc,i=0,ta,tb,tc;
     cin >> a>>b>>c;
     ta=a;
@@ -34,7 +35,6 @@ int main(){
             a=hb+hc;
             b=ha+hc;
             c=ha+hb;
-            //cout << a<<" "<<b<<" "<<c<<endl;;
             i++;
             if(ta==a && tb==b && tc==c){
                 i=-1;
@@ -49,6 +49,5 @@ int main(){
     else{
         cout<<0 <<endl;
     }
-
 }
-
+//超简单です。
