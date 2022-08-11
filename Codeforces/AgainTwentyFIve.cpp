@@ -1,7 +1,8 @@
 #include <iostream>
 
 using namespace std;
-
 int main(){
-  cout <<"Lmao World!\n";  
+    int n;
+    cin >>n;
+    cout << 25;
 }
